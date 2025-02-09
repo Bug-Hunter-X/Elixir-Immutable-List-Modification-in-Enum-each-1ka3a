@@ -1,0 +1,2 @@
+# Elixir Immutable List Modification
+This example demonstrates a common pitfall in Elixir: attempting to modify a list within an `Enum.each` loop.  Because lists are immutable, modifications create new lists, leaving the original list unchanged. The solution showcases correct approaches to modify lists in Elixir, leveraging functions like `Enum.filter` or `List.delete` in conjunction with reassignment of the list variable.
